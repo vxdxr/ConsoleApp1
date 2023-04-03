@@ -10,6 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            string s = Console.ReadLine();
+            double x = double.Parse(s);
+            double F = 3 * (Math.Sin(x + 2));
+            Console.WriteLine(x + " " + F);
+            Console.ReadKey();
+            return;
         }
+
     }
 }
